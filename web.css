@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.containerh {
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    height: 5vh;
+    align-items: center;
+    color: white;
+}
+
+.item {
+    text-align: center;
+}
+
+.iteml a {
+    margin: 0;
+    padding: 5px;
+    border-left: 1px solid black;
+}
+
+.iteml a:last-child {
+    border-right: 1px solid black;
+    color: yellow;
+}
+
+.iteml a:first-child {
+    margin-left: 10px;
+}
+
+.item a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+}
+
+.containerhs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items2 a {
+    border-right: 1px solid brown;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(211, 202, 154);
+}
+
+.items2 {
+    align-self: center;
+}
+
+.items1 {
+    margin-left: 5%;
+}
+
+header {
+    background-image: url("bgvideo.gif");
+    height: 100vh;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: scroll;
+}
+
+.heading {
+    display: flex;
+    position: relative;
+    top: 100px;
+    right: 0;
+    justify-content: space-around;
+}
+
+.heading h1 {
+    position: relative;
+    bottom: 21px;
+    right: 0;
+    font-size: 2.5em;
+}
+
+.heading a {
+    font-size: 3em;
+    transition-duration: 1s;
+    text-align: center;
+    transition-property: width height;
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+}
+
+.heading a:link {
+    color: black;
+}
+
+.heading a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+}
+
+.article {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 35%;
+    text-align: center;
+}
+
+.article p {
+    color: rgb(230, 255, 140);
+}
+
+.article a {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    padding-top: 10px;
+    background-color: rgb(3, 16, 53);
+    color: yellow;
+    width: 150px;
+    height: 50px;
+    font-size: 1em;
+    text-align: center;
+    padding: 1.5%;
+    border-radius: 5%;
+    text-decoration: none;
+    transition-duration: 1s;
+    transition-property: color;
+}
+
+.article a:active {
+    color: yellow;
+    text-decoration: none;
+}
+
+.article a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.article a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.heading a:active {
+    color: black;
+}
+
+.heading a:visited {
+    color: black;
+}
